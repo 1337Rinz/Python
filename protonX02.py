@@ -1,3 +1,8 @@
+#Tìm trong mảng [xs] xem có bao nhiêu chuỗi là chuỗi con của y
+
+
+
+
 def exercise2(xs, y):
     
 
