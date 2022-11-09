@@ -2,19 +2,18 @@
 
 
 
-
 def exercise2(xs, y):
     
-
+    # Lập trình tại đây
     result = 0
-    y = y.split()
-
+    # y = y.split()
 
     for i in xs:
       if i in y:
         result += 1
 
     return result
+    
     
     
 # TEST CODE
@@ -24,12 +23,10 @@ try:
     inp = [
       (['hổ', 'bò', 'gà', 'tủ lạnh'], 'hổ mang bò lên núi'), 
       (['hổ', 'bò', 'gà', 'tủ lạnh'], 'Hổ mang bò lên núi'), 
-      ([['1', '2', '1111', '1'], '11111111']),
     ]
     out = [
     2,
     1,
-    3,
     ]
     
     res_list = [False for _ in range(len(inp))]
